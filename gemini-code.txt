@@ -1,0 +1,41 @@
+You are a senior front-end engineer and creative director specializing in modern front-end motion design, multimedia, and interactive micro-animations.
+
+Please create a “Scrollytelling Scroll-Based Vector Timeline Showcase Website” as a single-file HTML document.
+
+[Technical Specifications and Requirements]
+
+1. Frameworks and Libraries:
+   - Use plain HTML5 and native JavaScript.
+   - Use Tailwind CSS for styling, imported via CDN.
+   - Use GSAP 3, ScrollTrigger, and ScrollToPlugin as the animation core, imported via cdnjs.
+
+2. Theme and Content:
+   - Theme: CyberPunk 2099 Night City
+   - Divide the story into 3–4 main phases 
+   - Phase 01 — The Awakening
+      In 2099, humanity lives in a futuristic megacity filled with neon lights, skyscrapers, and advanced technology.
+
+   - Phase 02 — The Machine Age
+      Cybernetic implants, robots, and artificial intelligence transform human life.
+
+   - Phase 03 — The Digital Underground
+      Hackers fight against powerful corporations in a mysterious world of digital networks and neon-lit streets.
+
+   - Phase 04 — The Nexus
+      Humanity and artificial intelligence merge into a connected digital future.
+
+   . Each phase must include a phase label, a key headline, and a short explanatory description.
+
+3. Visual Design and Layout:
+   - Include a Hero introduction section, a pinned main showcase section, and a concluding data section.
+   - Use a dark, tech-inspired background (Slate-950 color palette) with glowing neon gradients (Glow filter).
+   - Draw a custom, smooth SVG curve in the center as a timeline track, including both a static base track and an animated stroke track.
+
+4. Animation and Interaction:
+   - Use path.getTotalLength() and strokeDashoffset to create a line-drawing effect tied to scrolling.
+   - Configure the pinned section with scrub: 1.0 for smooth motion damping, and add a top progress bar that updates in real time to reflect the percentage.
+   - Bidirectional node interaction: SVG nodes should enlarge on hover, and clicking a node should smoothly scroll to the corresponding phase position.
+   - Provide HUD quick-navigation buttons that highlight in sync with the current scroll progress.
+
+5. Deliverable:
+   - Output the complete, unabridged single-file HTML document, including all inline JavaScript and CSS, ready to open and run directly in a browser.
